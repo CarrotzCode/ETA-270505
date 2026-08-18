@@ -1,0 +1,26 @@
+.footer {
+    top: 390px;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.settingicon {
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+    padding: 5px;
+}
+
+.settingicon img {
+    height: 30px;
+    width: 30px;
+    filter: var(--image-filter);
+
+}
+
+.versioninfo {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: xx-small;
+}

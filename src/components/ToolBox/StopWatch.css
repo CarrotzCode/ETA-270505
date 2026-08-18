@@ -1,0 +1,16 @@
+.stopwatch {
+    width: 215px;
+    padding: 5px;
+}
+
+#timerDisplay {
+    text-align: center;
+}
+
+.stopwatch button {
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 13px;
+    padding: 5px 10px;
+}

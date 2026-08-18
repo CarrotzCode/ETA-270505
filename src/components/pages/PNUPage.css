@@ -1,0 +1,9 @@
+#button-container {
+    display: inline-flex !important;
+    flex-direction: column !important;
+}
+
+.pnubutton {
+    display: inline-flex !important;
+    padding: 10px 50px !important;
+}

@@ -1,0 +1,19 @@
+.apps {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 200px;
+
+}
+
+.apps img {
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    filter: var(--image-filter);
+}
+
+.socialMediaApp {
+    padding: 10px;
+    width: 130px;
+}

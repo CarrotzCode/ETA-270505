@@ -1,0 +1,50 @@
+.gpt {
+    height: 160px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    transform-origin: center;
+}
+
+/* here!!!! */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.gpt:hover .icon {
+    fill: #60a5fa;
+    animation: spin 5.5s linear infinite;
+}
+
+.gpt svg {
+    width: 80px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.gpt p {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.logplacement {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s ease,
+        filter 0.2s ease;
+}
+
+.logplacement.logging {
+    opacity: 0;
+    transform: translateY(-6px);
+    filter: blur(4px);
+}

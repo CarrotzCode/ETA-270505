@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "easy-tool-accsess",
+    "version": "1.0.0",
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "scripting",
+        "clipboardRead",
+        "clipboardWrite",
+        "storage"
+    ],
+    "action": {
+        "default_popup": "index.html"
+    }
+}

@@ -1,0 +1,46 @@
+    :root {
+      --ink: #e9eef7;
+      --muted: #92a0b5;
+      --panel: #172234;
+      --line: rgba(177, 196, 225, 0.15);
+      --accent: #4df0c78c;
+      --accent-ink: #102030;
+      --base: #0c1422;
+      --button-bg: rgba(255, 255, 255, 0.08);
+      --button-border: rgba(0, 0, 0, 0.12);
+      --button-hover-border: #666666;
+      --image-filter: brightness(0) saturate(80%) invert(97%) sepia(79%) saturate(929%) hue-rotate(84deg) brightness(98%) contrast(92%);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 100%;
+      height: 350px;
+      margin: 0;
+      min-height: calc(100 * min(var(--vh, 1vh), 1vh)); 
+      background: var(--base);
+      color: var(--ink);
+      font-family: "DM Sans", sans-serif;
+      transition: background .35s ease, color .35s ease;
+    }
+
+    body.light-mode {
+      --ink: #142033;
+      --muted: #637288;
+      --panel: #f4f7fb;
+      --line: rgba(29, 49, 78, 0.14);
+      --accent: #dc8f12;
+      --accent-ink: #ffffff;
+      --base: #e7edf4;
+
+      --button-bg: rgba(255, 255, 255, 0.08);
+      --button-border: rgba(0, 0, 0, 0.12);
+      --button-hover-border: #666666;
+
+
+
+      --image-filter: brightness(0) saturate(100%) invert(58%) sepia(91%) saturate(1036%) hue-rotate(359deg) brightness(90%) contrast(92%);
+    }
