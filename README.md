@@ -1,21 +1,65 @@
+# 🛠️ Easy Tool Access
 
-pnu
-access to reg1 and classes
-and soal copy
+A lightweight Chrome Extension built with **React** and **Vite** that brings useful tools and shortcuts together in one place.
 
-social media
-instagram telegram whats app 
+## ✨ Features
 
-tools
-timer counter calc
+- 🌐 **Quick Access**
+  - Open frequently used websites with one click
+  - Store useful login information locally
 
-setting
-background color 
-passwords of pnu 
+- 🧮 **Calculator**
+  - Basic calculator
+  - Keyboard support
+  - Advanced Calculator powered by Desmos
 
-            note book
+- 🌦️ **Weather**
+  - Automatic city detection
+  - Search weather by city
+  - Temperature in Celsius / Fahrenheit
+  - Wind speed conversion
+  - Humidity information
 
-            <!-- a day and night -->
+- ⏱️ **Stopwatch**
+  - Start / Stop
+  - Resume
+  - Reset
+  - Millisecond precision
 
+- 📋 **Copy Tools**
+  - Copy selected webpage content directly to the clipboard
+  - Designed for use with Chrome Extension APIs
 
-            app: 
+- 📱 **Social Media**
+  - Quick access to popular social media platforms
+
+- ⚙️ **Settings**
+  - Save preferences locally using Chrome Storage
+
+## 🧰 Tech Stack
+
+- React
+- JavaScript
+- Vite
+- React Router
+- CSS
+- Chrome Extension APIs
+- OpenWeather API
+
+## 📁 Project Structure
+
+```text
+Easy_Tool_Access/
+├── public/
+│   └── manifest.json
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── containers/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+└── vite.config.js
